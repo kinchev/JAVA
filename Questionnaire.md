@@ -246,11 +246,11 @@ In software engineering, dependency injection is a technique in which an object 
    
 ---**PATCH** използвасе да промени само дадена част на ресурса.
 - **Which are the HTTP response codes?**
----1xx заявката е получена,продължаване на процеса.
----2xx заявката е получена,разбрана и приета.
----3xx
----4xx
----5xx
+- ---1xx(информационен характер) заявката е получена от сървъра и я обработва,продължаване на процеса.
+- ---2xx заявката е успешно получена,разбрана и приета.
+- ---3xx пренасочване
+- ---400 Грешката идва от клиента,грешен синтаксис или няма такава.
+- ---500 Грешката идва от сървъра !
 - What is the difference between `HTTP GET` and `HTTP POST`?
 - What is the difference between `HTTP PUT` and `HTTP POST`?
 - What HTTP method you’d use if you had to get resource from the server, but to do so you need to send lots of data?
