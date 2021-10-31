@@ -257,7 +257,7 @@ In software engineering, dependency injection is a technique in which an object 
 - What HTTP method you’d use if you had to get resource from the server, but to do so you need to send lots of data?
 - **What is the format of a HTTP request and response?**
 - What is REST service?
- --- **Representational State Transfer** Взаймодеиствие между клиент и сървър,осъществено по време на трансфера на данни.
+ --- **Representational State Transfer** Взаймодействие между клиент и сървър,осъществено по време на трансфера на данни.Архитектурен подход за API,набор от правила
 
 
 - What is API and how can you use it?
