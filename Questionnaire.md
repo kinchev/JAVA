@@ -202,21 +202,29 @@ In software engineering, dependency injection is a technique in which an object 
 #### Questions that you must be able to answer in detail
 
 - What is Spring?
-  **Spring Framework** is an open source application framework that          provides infrastructure support developing  Java applications. **Spring** helps developers create high perfoming application using plain old Java objects(POJOs).
+  **Spring Framework** e framework(рамка,по голямо от библиотека,изградено върху някакъв език ,което ни позволя чрез набор от правила ,които трябва да спазваме да изграждаме приложения),с отворен код,които ни предоставя много функции,които ни улеснява да изграждаме приложение от POJO,като трябва да спазваме определени правила,определени от framework.
+  
 
 
 - What are some of the core modules in Spring?
   1. **Core Container**
-  a.**Core**
-  В core се намира логиката,която се грижи за създаването и достъпването на Beans.Имаме Beanfactory за създаването  им или чрез config files.Грижи се за сетването на полета и управление на Dependancies  
   
-  b.**Beans**
-  Класове ,който енкапсулират дуги обекти  в един обект Bean,те могат да бъдат серилизарани имат конструктор без параментри и дават дотъп до полета чрез getters and setters.Целата е да се създадат преизползваеми софтуерни компуненти за Java
+  a.**Core** В core се намира логиката,която се грижи за създаването и достъпването на Beans.Имаме Beanfactory за създаването  им или чрез config files.Грижи се за сетването на полета и управление на Dependancies.  
+  
+  b.**Beans** Класове ,който енкапсулират дуги обекти  в един обект Bean,те могат да бъдат серилизарани имат конструктор без параментри и дават дотъп до полета чрез getters and setters.Целата е да се създадат преизползваеми софтуерни компуненти за Java
 
 
 - What is Java bean?
 - What is JDBC and Hibernate and what is the difference?
+
+**Hibernate** performs an object-relation mapping framework and its data gase independentt,same code will work for all data bases ,while JDBC is simply a database connectivity API and query must be data base specific.
+
+**Hibernate**  изпълнява рамка за картографиране на обекти и нейнита база данни независимо,един и същ код ще работи за всички бази данни,докато JDBS е просто API за свързване на бази данни и заявките трябва да е специфична за пазата данни.
 - What is transaction and why do we use it?
+
+  Пренос на информация от или към Базата Данни.Група от логически опрации или само една операция.Или всички минават или всички се считат за   невалидни.Update or Delete имат Rollback(cancel operation) and Commit(apply oeration).
+
+  Transfer of information from or to Databases.The group of logical operations or only one. Or all operations pass or all are considered unsuccessful.Update and Delete have Rollback and Commit.
 - **What is HTTP?**
   
   HyperText Transfer Protocol.Application protocol for transfering resources across the Internet.
@@ -224,16 +232,32 @@ In software engineering, dependency injection is a technique in which an object 
   Набор от правила за обмен на ресусрси по Интернет.
 - 
 **Which are the main HTTP methods?**
+ ---**GET** извличане на ресурси от сървъра.Няма тяло.GET /users ще върне всички users.
+   Method-GET
+   Target-Адреса ,от който ще търсим данните(примерно google.com)
+   Headers-Каква форма ще върне отговора,Browsers ги генерира.
+   Body-няма!
   
-  -PUT is used to send data to a server to create/update a resource.Retun always same result.
-  -POST is used to send data to a server to create/update a resource.Have side effects.
+---**POST** изпращане на данни до API сървъра за създаване или обновяване на ресурс.Има странични ефекти
+   
+---**PUT** изпращане на данни до API сървъра за създаване или обновяване на ресурс.Води до един и същ резултат.
+   
+---**DELETE** изтриване(премахване) на ресурс.
+   
+---**PATCH** използвасе да промени само дадена част на ресурса.
 - **Which are the HTTP response codes?**
+---1xx заявката е получена,продължаване на процеса.
+---2xx заявката е получена,разбрана и приета.
+---3xx
+---4xx
+---5xx
 - What is the difference between `HTTP GET` and `HTTP POST`?
 - What is the difference between `HTTP PUT` and `HTTP POST`?
 - What HTTP method you’d use if you had to get resource from the server, but to do so you need to send lots of data?
 - **What is the format of a HTTP request and response?**
 - What is REST service?
 - What is API and how can you use it?
+---Interface ,които позволява нашата програма да контактува с други програми.Набор ot end-point  които предоставяме.Приложение ,което се ралолага на  сървъра и през него контактува с клиентите.
 - Explain the MVC design pattern?
 - What is template engine and where do we use it?
 - What is the difference between dynamic web pages and single page application (SPA)?
