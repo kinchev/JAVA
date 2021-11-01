@@ -194,6 +194,8 @@ In software engineering, dependency injection is a technique in which an object 
 - How do dependency injection containers work under the hood?
 - What is Singleton pattern and how to design it in your class structure?
 - What is lazy and eager initialization?
+- ---**LAZY** при поискване(оптимизация)
+- ---**EAGER** Зарежда се цялта информация.
 
 ****
 
