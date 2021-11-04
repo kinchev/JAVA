@@ -194,6 +194,8 @@ In software engineering, dependency injection is a technique in which an object 
 - How do dependency injection containers work under the hood?
 - What is Singleton pattern and how to design it in your class structure?
 - What is lazy and eager initialization?
+- ---**LAZY** при поискване(оптимизация)
+- ---**EAGER** Зарежда се цялта информация.
 
 ****
 
@@ -201,8 +203,9 @@ In software engineering, dependency injection is a technique in which an object 
 
 #### Questions that you must be able to answer in detail
 
-- What is Spring?
-  **Spring Framework** e framework(рамка,по голямо от библиотека,изградено върху някакъв език ,което ни позволя чрез набор от правила ,които трябва да спазваме да изграждаме приложения),с отворен код,които ни предоставя много функции,които ни улеснява да изграждаме приложение от POJO,като трябва да спазваме определени правила,определени от framework.
+- What is **Spring**?
+  
+  --- **Spring Framework** e framework(рамка,по голямо от библиотека,изградено върху някакъв език ,което ни позволя чрез набор от правила ,които трябва да спазваме да изграждаме приложения),с отворен код,които ни предоставя много функции,които ни улеснява да изграждаме приложение от POJO,като трябва да спазваме определени правила,определени от framework.
   
 
 
@@ -214,22 +217,21 @@ In software engineering, dependency injection is a technique in which an object 
   b.**Beans** Класове ,който енкапсулират дуги обекти  в един обект Bean,те могат да бъдат серилизарани имат конструктор без параментри и дават дотъп до полета чрез getters and setters.Целата е да се създадат преизползваеми софтуерни компуненти за Java
 
 
-- What is Java bean?
 - What is JDBC and Hibernate and what is the difference?
 
-**Hibernate** performs an object-relation mapping framework and its data gase independentt,same code will work for all data bases ,while JDBC is simply a database connectivity API and query must be data base specific.
+--- **Hibernate** performs an object-relation mapping framework and its data gase independentt,same code will work for all data bases ,while JDBC is simply a database connectivity API and query must be data base specific.
 
-**Hibernate**  изпълнява рамка за картографиране на обекти и нейнита база данни независимо,един и същ код ще работи за всички бази данни,докато JDBS е просто API за свързване на бази данни и заявките трябва да е специфична за пазата данни.
+--- **Hibernate**  изпълнява рамка за картографиране на обекти и нейнита база данни независимо,един и същ код ще работи за всички бази данни,докато JDBS е просто API за свързване на бази данни и заявките трябва да е специфична за пазата данни.
 - What is transaction and why do we use it?
 
-  Пренос на информация от или към Базата Данни.Група от логически опрации или само една операция.Или всички минават или всички се считат за   невалидни.Update or Delete имат Rollback(cancel operation) and Commit(apply oeration).
+  ---Пренос на информация от или към Базата Данни.Група от логически опрации или само една операция.Или всички минават или всички се считат за   невалидни.Update or Delete имат Rollback(cancel operation) and Commit(apply oeration).
 
   Transfer of information from or to Databases.The group of logical operations or only one. Or all operations pass or all are considered unsuccessful.Update and Delete have Rollback and Commit.
 - **What is HTTP?**
   
-  HyperText Transfer Protocol.Application protocol for transfering resources across the Internet.
+  ---HyperText Transfer Protocol.Application protocol for transfering resources across the Internet.
   
-  Набор от правила за обмен на ресусрси по Интернет.
+  ---Набор от правила за обмен на ресусрси по Интернет.
 - 
 **Which are the main HTTP methods?**
  ---**GET** извличане на ресурси от сървъра.Няма тяло.GET /users ще върне всички users.
@@ -246,18 +248,24 @@ In software engineering, dependency injection is a technique in which an object 
    
 ---**PATCH** използвасе да промени само дадена част на ресурса.
 - **Which are the HTTP response codes?**
----1xx заявката е получена,продължаване на процеса.
----2xx заявката е получена,разбрана и приета.
----3xx
----4xx
----5xx
+- ---1xx(информационен характер) заявката е получена от сървъра и я обработва,продължаване на процеса.
+- ---2xx заявката е успешно получена,разбрана и приета.
+- ---3xx пренасочване
+- ---400 Грешката идва от клиента,грешен синтаксис или няма такава.
+- ---500 Грешката идва от сървъра !
+
 - What is the difference between `HTTP GET` and `HTTP POST`?
 - What is the difference between `HTTP PUT` and `HTTP POST`?
 - What HTTP method you’d use if you had to get resource from the server, but to do so you need to send lots of data?
 - **What is the format of a HTTP request and response?**
 - What is REST service?
+ --- **Representational State Transfer** Взаймодействие между клиент и сървър,осъществено по време на трансфера на данни.Архитектурен подход за API,набор от правила
+
+
 - What is API and how can you use it?
+
 ---Interface ,които позволява нашата програма да контактува с други програми.Набор ot end-point  които предоставяме.Приложение ,което се ралолага на  сървъра и през него контактува с клиентите.
+
 - Explain the MVC design pattern?
 - What is template engine and where do we use it?
 - What is the difference between dynamic web pages and single page application (SPA)?
