@@ -38,6 +38,7 @@ These are the theoretical questions that will most likely be asked during the pr
 - Is data passed by *Reference* or by *Value* in Java?
 - **What is the difference between `==` and `equals()`?**
 - **What is the difference between `static` and `final` variables in Java?**
+final-неможе да бъде променяна стойността.
 - Describe the meaning of the `final` keyword when applied to a *class*, *method*, *field* or a *local variable*.
 - **What are the differences between `local`, `static` and `instance` variables?**
 - **What is the difference between primitive and reference type?**
