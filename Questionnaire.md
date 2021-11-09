@@ -114,6 +114,7 @@ String Pool is a storage area in Java heap
 
 - Explain *static initializers* in Java?
 - **Explain *overloading* in Java?**
+арактеристика на Java, при която един клас има повече от един метод с едно и също име и техните параметри са различни
 - What is data *encapsulation*?
 - Explain *inheritance*? Is there *multiple inheritance* in Java?
 - **What is *polymorphism* in Java?**
