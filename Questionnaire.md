@@ -36,6 +36,7 @@ These are the theoretical questions that will most likely be asked during the pr
 import е ключова дума на Java . Той декларира Java клас за използване в кода под оператора за импортиране. След като Java клас бъде деклариран, тогава името на класа може да се използва в кода, без да се посочва пакетът, към който принадлежи класът. Използвайте символа '*', за да декларирате всички класове, принадлежащи към пакета.
 
 - What is Generic type in Java? Can you give an example?
+Накратко, генериците позволяват типовете (класове и интерфейси) да бъдат параметри при дефиниране на класове, интерфейси и методи . Подобно на по-познатите формални параметри, използвани в декларациите на методи, параметрите на типа ви предоставят начин да използвате повторно един и същ код с различни входове.
 - Is data passed by *Reference* or by *Value* in Java?
 - **What is the difference between `==` and `equals()`?**
 - **What is the difference between `static` and `final` variables in Java?**
