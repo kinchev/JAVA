@@ -37,8 +37,11 @@ import е ключова дума на Java . Той декларира Java к�
 
 - What is Generic type in Java? Can you give an example?
 Накратко, генериците позволяват типовете (класове и интерфейси) да бъдат параметри при дефиниране на класове, интерфейси и методи . Подобно на по-познатите формални параметри, използвани в декларациите на методи, параметрите на типа ви предоставят начин да използвате повторно един и същ код с различни входове.
+
 - Is data passed by *Reference* or by *Value* in Java?
+
 - **What is the difference between `==` and `equals()`?**
+
 - **What is the difference between `static` and `final` variables in Java?**
 final-неможе да бъде променяна стойността.
 - Describe the meaning of the `final` keyword when applied to a *class*, *method*, *field* or a *local variable*.
@@ -47,6 +50,7 @@ final-неможе да бъде променяна стойността.
 - What is autoboxing and unboxing?
 - What is the difference between `String`, `StringBuilder` and `StringBuffer` in Java?
 - What is Java String Pool?
+String Pool е зона за съхранение в Java heap . ... За да намали броя на String обектите, създадени в JVM, класът String поддържа пул от низове. Всеки път, когато се създава низов литерал, JVM първо проверява пула от низови литерал.
 String Pool is a storage area in Java heap
 - How many ways are there to create a `String` Object in Java?
 - Is `String` a *Primitive* or a *Derived* Type?
