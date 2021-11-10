@@ -26,5 +26,7 @@ public class UserServiceImpl implements UserService {
     public User getById(int id) {
         return repository.getById(id);
     }
-
+    @Override
+    public List<User> getUsers(int styleId) {
+        return repository.getUsers(styleId);}
 }

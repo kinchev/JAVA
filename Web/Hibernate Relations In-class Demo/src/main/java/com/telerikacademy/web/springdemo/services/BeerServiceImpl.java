@@ -3,6 +3,7 @@ package com.telerikacademy.web.springdemo.services;
 import com.telerikacademy.web.springdemo.exceptions.DuplicateEntityException;
 import com.telerikacademy.web.springdemo.exceptions.EntityNotFoundException;
 import com.telerikacademy.web.springdemo.models.Beer;
+import com.telerikacademy.web.springdemo.models.User;
 import com.telerikacademy.web.springdemo.repositories.BeerRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -74,5 +75,8 @@ public class BeerServiceImpl implements BeerService {
     public void delete(int id) {
         repository.delete(id);
     }
+
+
+
 
 }

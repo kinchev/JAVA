@@ -3,6 +3,7 @@ package com.telerikacademy.web.springdemo.repositories;
 import com.telerikacademy.web.springdemo.exceptions.EntityNotFoundException;
 import com.telerikacademy.web.springdemo.models.Beer;
 import com.telerikacademy.web.springdemo.models.BeerDto;
+import com.telerikacademy.web.springdemo.models.User;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.query.Query;
@@ -91,4 +92,7 @@ public class BeerRepositoryImpl implements BeerRepository {
             session.getTransaction().commit();
         }
     }
+
+
 }
+

@@ -9,5 +9,6 @@ public interface UserService {
     List<User> getAll();
 
     User getById(int id);
+    List<User> getUsers(int styleId);
 
 }

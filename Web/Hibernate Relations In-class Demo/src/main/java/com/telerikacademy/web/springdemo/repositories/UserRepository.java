@@ -10,4 +10,6 @@ public interface UserRepository {
 
     User getById(int id);
 
+    List<User> getUsers(int styleId);
+
 }

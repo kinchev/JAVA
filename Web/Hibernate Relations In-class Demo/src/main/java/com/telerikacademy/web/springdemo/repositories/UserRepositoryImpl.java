@@ -50,6 +50,17 @@ public class UserRepositoryImpl implements UserRepository {
         }
     }
 
+    @Override
+    public List<User> getUsers(int styleId) {
+        try (Session session = sessionFactory.openSession()) {
 
+            return session.createQuery(
+                            "select distinct u from User u" +
+                                    " join u.wishList b " +
+                                    " where b.style.id = :styleId", User.class)
+                    .setParameter("styleId", styleId)
+                    .getResultList();
+        }
+    }
 
 }

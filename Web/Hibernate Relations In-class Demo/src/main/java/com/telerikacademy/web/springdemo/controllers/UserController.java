@@ -56,4 +56,9 @@ public class UserController {
         return new ArrayList<>(getById(id).getWishList());
     }
 
+    @GetMapping("/filter")
+    public List<User> getUsers(
+            int styleId) {
+        return service.getUsers(styleId);
+    }
 }
