@@ -33,17 +33,24 @@ These are the theoretical questions that will most likely be asked during the pr
   **JRE** Средата за изпълнение на Java или JRE е софтуерен слой, който работи върху софтуера на операционната система на компютъра и предоставя библиотеките на класовете и други ресурси, от които се нуждае конкретна Java програма.
 -     
 - Why is `import` in Java?
+import е ключова дума на Java . Той декларира Java клас за използване в кода под оператора за импортиране. След като Java клас бъде деклариран, тогава името на класа може да се използва в кода, без да се посочва пакетът, към който принадлежи класът. Използвайте символа '*', за да декларирате всички класове, принадлежащи към пакета.
 
 - What is Generic type in Java? Can you give an example?
+Накратко, генериците позволяват типовете (класове и интерфейси) да бъдат параметри при дефиниране на класове, интерфейси и методи . Подобно на по-познатите формални параметри, използвани в декларациите на методи, параметрите на типа ви предоставят начин да използвате повторно един и същ код с различни входове.
+
 - Is data passed by *Reference* or by *Value* in Java?
+
 - **What is the difference between `==` and `equals()`?**
+
 - **What is the difference between `static` and `final` variables in Java?**
+final-неможе да бъде променяна стойността.
 - Describe the meaning of the `final` keyword when applied to a *class*, *method*, *field* or a *local variable*.
 - **What are the differences between `local`, `static` and `instance` variables?**
 - **What is the difference between primitive and reference type?**
 - What is autoboxing and unboxing?
 - What is the difference between `String`, `StringBuilder` and `StringBuffer` in Java?
 - What is Java String Pool?
+String Pool е зона за съхранение в Java heap . ... За да намали броя на String обектите, създадени в JVM, класът String поддържа пул от низове. Всеки път, когато се създава низов литерал, JVM първо проверява пула от низови литерал.
 String Pool is a storage area in Java heap
 - How many ways are there to create a `String` Object in Java?
 - Is `String` a *Primitive* or a *Derived* Type?
@@ -107,6 +114,7 @@ String Pool is a storage area in Java heap
 
 - Explain *static initializers* in Java?
 - **Explain *overloading* in Java?**
+арактеристика на Java, при която един клас има повече от един метод с едно и също име и техните параметри са различни
 - What is data *encapsulation*?
 - Explain *inheritance*? Is there *multiple inheritance* in Java?
 - **What is *polymorphism* in Java?**
