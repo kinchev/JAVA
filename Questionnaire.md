@@ -1,4 +1,4 @@
-# Java Technical Questionnaire
+ # Java Technical Questionnaire
 
 These are the theoretical questions that will most likely be asked during the project defenses and during the technical part of your job interviews. The idea of these questions is for them to act like a learning guide and provide the student an accurate way of measuring their understanding of the key concepts behind each course and module. As you can see, they are separated into two groups.
 
@@ -61,6 +61,7 @@ String Pool is a storage area in Java heap
 - **When comparing strings, what’s the difference between `str1 == str2` and `str1.еquals(str2)`?**
 - How can we convert `String` to `Integer` and `Integer` to `String` in Java?
 - What is `String.format()` used for?
+    В java методът String format() връща форматиран низ
 - How can we convert a String to a Character array?
 - What is try-with–resources block in Java?
 - How does Java allocate stack and heap memory?
