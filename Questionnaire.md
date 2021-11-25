@@ -45,7 +45,7 @@ import е ключова дума на Java . Той декларира Java к�
    == дали обектите сочат към един и същ адрес в паметта,а equals дали имам една и съща стойност.
 
 - **What is the difference between `static` and `final` variables in Java?**
-final-неможе да бъде променяна стойността.
+  final-неможе да бъде променяна стойността на променвивата,класа не може  да бъде наследяван ,метода не може да бъде презаписан.
 - Describe the meaning of the `final` keyword when applied to a *class*, *method*, *field* or a *local variable*.
 - **What are the differences between `local`, `static` and `instance` variables?**
 - **What is the difference between primitive and reference type?**
