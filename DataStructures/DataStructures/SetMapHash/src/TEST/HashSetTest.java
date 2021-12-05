@@ -7,6 +7,15 @@ import java.util.List;
 
 public class HashSetTest {
     public String name;
+    int age;
+
+    public HashSetTest(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
+    public HashSetTest() {
+    }
 
     @Override
     public int hashCode() {
@@ -40,3 +49,13 @@ public class HashSetTest {
             }
         }
 
+class Test1{
+    public static void main(String[] args) {
+        HashSetTest three = new HashSetTest("John",20);
+        HashSetTest four = new HashSetTest("John",20);
+        HashSet<HashSetTest> setOf = new HashSet<>();
+        setOf.add(three);
+        setOf.add(four);
+        System.out.println(setOf.size());
+    }
+}
