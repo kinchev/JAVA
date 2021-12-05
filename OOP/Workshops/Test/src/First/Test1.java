@@ -2,15 +2,14 @@ package First;
 
 public class Test1 {
     public static void main(String[] args) {
-        Banana banana = new Banana();
-        Fruit fruit = banana;
+        Fruit fruit = new Banana();
     }
 
 }
 
 class Fruit {
     public Fruit() {
-        System.out.println("First.Fruit Constructor");
+        System.out.println("Fruit Constructor");
     }
 
     public static void whatAmI() {
@@ -20,7 +19,7 @@ class Fruit {
 
 class Banana extends Fruit {
     public Banana() {
-        System.out.println("First.Banana constructor");
+        System.out.println("Banana constructor");
     }
 
     public static void whatAmI() {
