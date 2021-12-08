@@ -2,7 +2,7 @@ package First;
 
 public class Test1 {
     public static void main(String[] args) {
-        Fruit fruit = new Banana();
+        Fruit fruit= new Banana();
     }
 
 }
