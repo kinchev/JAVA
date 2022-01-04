@@ -11,7 +11,7 @@ public class MyBook extends Book {
         new_novel.setTitle(title);
         System.out.println("The title is: "+new_novel.getTitle());
         sc.close();
-
+Scanner scanner = new Scanner(System.in);
     }
     @Override
     void setTitle(String s) {
