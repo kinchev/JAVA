@@ -1,4 +1,4 @@
-import org.junit.platform.commons.util.StringUtils;
+
 
 public class CountTheDigit {
     public static int nbDig(int n, int d) {
