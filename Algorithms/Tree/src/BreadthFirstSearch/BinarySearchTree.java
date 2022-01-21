@@ -8,8 +8,8 @@ import java.util.Queue;
 class BinarySearchTree<E> {
     private static final String VALUE_CANNOT_BE_NULL = "Value cannot be null." ;
     private E value;
-    private BinarySearchTree<E> left;
-    private BinarySearchTree<E> right;
+    private final BinarySearchTree<E> left;
+    private final BinarySearchTree<E> right;
 
     public BinarySearchTree(E value) {
         if (value == null) {
