@@ -1,29 +1,34 @@
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
 public class PickPeaks {
-    public static Map<String, List<Integer>> getPeaks(int[] arr) {
-        if(arr.length<=1){
-            return new HashMap<String, List<Integer>>();
-        }
 
-        Map<String, List<Integer>> output = new HashMap<String, List<Integer>>();
-        for (int i = 0; i < arr.length; i++) {
-            int peak = arr[i + 1];
-            if(i==arr.length-2){
-                return output;
+
+        public static Map<String,List<Integer>> getPeaks(int[] arr) {
+
+        Map<String,List<Integer>> positionAndPeak = new HashMap<String,List<Integer>>() {{
+            put("pos",   new ArrayList<Integer>() );
+            put("peaks", new ArrayList<Integer>() );
+        }};
+        int posMax = 0;
+        boolean matchAsc = false;
+
+        for (int i = 1 ; i < arr.length ; i++) {
+            if (arr[i-1] < arr[i]) {
+                matchAsc = true;
+                posMax = i;
             }
-            if (peak > arr[i] && peak > arr[i + 2]) {
-                output.put(String.valueOf(arr[i+1]),List.of(peak));
+            if (matchAsc && arr[i-1] > arr[i]) {
+                matchAsc = false;
+                positionAndPeak.get("pos").add(posMax);
+                positionAndPeak.get("peaks").add(arr[posMax]);
             }
-
         }
-
-        return output;
+        return positionAndPeak;
     }
-
     public static void main(String[] args) {
-        System.out.println(getPeaks(new int[]{1,2,3,6,4,1,2,3,2,1}));
+        System.out.println(getPeaks(new int[]{2,1,3,1,2,2,2,2,1}));
     }
 }
