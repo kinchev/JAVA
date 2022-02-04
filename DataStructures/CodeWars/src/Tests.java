@@ -2,22 +2,20 @@ import java.util.Arrays;
 import java.util.List;
 
 public class Tests {
-    private static final List<String> KEYS = Arrays.asList(
-            "1", "ABC2", "DEF3", "GHI4", "JKL5", "MNO6", "PQRS7", "TUV8", "WXYZ9", "*", " 0", "#");
-    public static void main(String[] args) {
-        System.out.println(KEYS.indexOf(" 0"));
-
-
+    public static String reverseString(String text) {
+        // base case
+        if (text.length() == 0) {
+            return text;
+        } else {
+            // recursive call
+            return reverseString(text.substring(1)) + text.charAt(0);
+        }
     }
-//        public static int streamN(int n){
-//            return Integer.parseInt(String.valueOf(n)
-//
-//                    .chars()
-//                    .map(i->I)
-//        }
-//    public static void main(String[] args) {
-//        int n1 = 54353;
-//        System.out.println(streamN(n1));
-//    }
-//
+
+    public static void main(String[] args) {
+        String str = new String("howdy");
+        // calling recursive function
+        String reverse = reverseString(str);
+        System.out.println(reverse); // Prints: ydwoh
+    }
 }

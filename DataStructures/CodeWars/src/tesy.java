@@ -1,8 +1,10 @@
 public class tesy {
+
     public static void main(String[] args) {
-        int i = 3;
-        int n = 3;
-        System.out.println(i/n);
-        System.out.println(i%n);
+        String text = new String("12345");
+        // calling recursive function
+        String result=text.substring(1) + text.charAt(0);
+        System.out.println(result); // Prints: ydwoh
     }
 }
+
