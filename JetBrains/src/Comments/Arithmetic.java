@@ -36,6 +36,16 @@ public class Arithmetic {
         System.out.print(++n);
         System.out.print(n++);
         System.out.print(n++);
+        System.out.println();
+        int a = 100;
+        int b = a;
+
+        String c = new String("abc");
+        String d = c;
+        System.out.println(c);
+        System.out.println(d);
+        System.out.println(a);
+        System.out.println(b);
     }
 
 }
