@@ -94,7 +94,7 @@ public class DoublyLinkedList {
         return nodeToRemove;
     }
     public static void main(String[] args) {
-
+        System.out.println();
     }
 
 }
