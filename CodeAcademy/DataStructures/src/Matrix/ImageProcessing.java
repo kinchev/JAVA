@@ -14,6 +14,7 @@ public class ImageProcessing {
         // Or load your own image using a URL!
         //int[][] imageData = imgToTwoD("https://content.codecademy.com/projects/project_thumbnails/phaser/bug-dodger.png");
         //viewImageData(imageData);
+        assert imageData != null;
         int[][] trimmed = trimBorders(imageData, 60);
         twoDToImage(trimmed, "./trimmed_apple.jpg");
         // int[][] allFilters = stretchHorizontally(shrinkVertically(colorFilter(negativeColor(trimBorders(invertImage(imageData), 50)), 200, 20, 40)));
@@ -81,6 +82,7 @@ public class ImageProcessing {
             } else {
                 image = ImageIO.read(new File(inputFileOrLink));
             }
+            assert image != null;
             int imgRows = image.getHeight();
             int imgCols = image.getWidth();
             int[][] pixelData = new int[imgRows][imgCols];
