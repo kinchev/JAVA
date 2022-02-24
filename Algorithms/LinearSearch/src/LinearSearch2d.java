@@ -1,4 +1,5 @@
 public class LinearSearch2d {
+//    O(n^2)
     public static int linearSearch2D(String[][] haystack, String target) {
         for (int i = 0; i < haystack.length; i++) {
             for (int j = 0; j < haystack[0].length; j++) {
