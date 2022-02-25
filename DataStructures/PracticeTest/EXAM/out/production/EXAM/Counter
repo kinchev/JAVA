@@ -1,0 +1,6 @@
+public class com.company.demo.DATATYPE.Counter {
+    public static int count=1;
+    public com.company.demo.DATATYPE.Counter(){
+        count++;
+    }
+}

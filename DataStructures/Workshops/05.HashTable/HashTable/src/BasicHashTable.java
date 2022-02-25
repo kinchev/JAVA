@@ -1,8 +1,5 @@
 public class BasicHashTable<K, V> {
-    public static void main(String[] args) {
-        BasicHashTable<String, String> a = new BasicHashTable<>(10);
 
-    }
 
     private HashEntry[] data;
     private int capacity;
@@ -52,6 +49,7 @@ public class BasicHashTable<K, V> {
             while (data[hash] != null) {
                 HashEntry he = data[hash];
                 data[hash] = null;
+                System.out.println("Rehashing: " + he.getKey() + " - " + he.getValue());
                 put((K) he.getKey(), (V) he.getValue());
                 size--;
                 hash = (hash + 1) % this.capacity;

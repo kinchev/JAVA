@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Workshops/01. Stack And Queue/01. Stack And Queue.iml" filepath="$PROJECT_DIR$/Workshops/01. Stack And Queue/01. Stack And Queue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Workshops/02. Doubly LinkedList/02. Doubly LinkedList.iml" filepath="$PROJECT_DIR$/Workshops/02. Doubly LinkedList/02. Doubly LinkedList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Workshops/03. ArrayList/03. ArrayList.iml" filepath="$PROJECT_DIR$/Workshops/03. ArrayList/03. ArrayList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AlgoExpert/AlgoExpert.iml" filepath="$PROJECT_DIR$/AlgoExpert/AlgoExpert.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CodeSignal/CodeSignal.iml" filepath="$PROJECT_DIR$/CodeSignal/CodeSignal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CodeWars/CodeWars.iml" filepath="$PROJECT_DIR$/CodeWars/CodeWars.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DataStructures.iml" filepath="$PROJECT_DIR$/DataStructures.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DataStructures/Exam/Exam.iml" filepath="$PROJECT_DIR$/DataStructures/Exam/Exam.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HackerRank/HackerRank.iml" filepath="$PROJECT_DIR$/HackerRank/HackerRank.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Leetcode/Leetcode.iml" filepath="$PROJECT_DIR$/Leetcode/Leetcode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DataStructures/Recursion/Recursion.iml" filepath="$PROJECT_DIR$/DataStructures/Recursion/Recursion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DataStructures/SetMapHash/SetMapHash.iml" filepath="$PROJECT_DIR$/DataStructures/SetMapHash/SetMapHash.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Workshops/04. Binary Search Tree/Skeleton/Skeleton.iml" filepath="$PROJECT_DIR$/Workshops/04. Binary Search Tree/Skeleton/Skeleton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Workshops/04. Binary Search Tree/Skeleton/Skeleton/Skeleton1.iml" filepath="$PROJECT_DIR$/Workshops/04. Binary Search Tree/Skeleton/Skeleton/Skeleton1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DataStructures/StackQueueDeque/StackQueueDeque.iml" filepath="$PROJECT_DIR$/DataStructures/StackQueueDeque/StackQueueDeque.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DataStructures/Tree/Tree.iml" filepath="$PROJECT_DIR$/DataStructures/Tree/Tree.iml" />
+    </modules>
+  </component>
+</project>

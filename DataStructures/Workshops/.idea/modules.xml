@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/01. Stack And Queue/01. Stack And Queue.iml" filepath="$PROJECT_DIR$/01. Stack And Queue/01. Stack And Queue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02. Doubly LinkedList/02. Doubly LinkedList.iml" filepath="$PROJECT_DIR$/02. Doubly LinkedList/02. Doubly LinkedList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03. ArrayList/03. ArrayList.iml" filepath="$PROJECT_DIR$/03. ArrayList/03. ArrayList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05.HashTable/05.HashTable.iml" filepath="$PROJECT_DIR$/05.HashTable/05.HashTable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04. Binary Search Tree/Skeleton/Skeleton.iml" filepath="$PROJECT_DIR$/04. Binary Search Tree/Skeleton/Skeleton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04. Binary Search Tree/Skeleton/Skeleton/Skeleton1.iml" filepath="$PROJECT_DIR$/04. Binary Search Tree/Skeleton/Skeleton/Skeleton1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Workshops.iml" filepath="$PROJECT_DIR$/.idea/Workshops.iml" />
+    </modules>
+  </component>
+</project>
