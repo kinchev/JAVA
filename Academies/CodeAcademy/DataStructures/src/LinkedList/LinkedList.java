@@ -1,5 +1,7 @@
 package LinkedList;
 
+import java.util.Objects;
+
 public class LinkedList {
 
     public static void main(String []args) {
@@ -21,6 +23,18 @@ public class LinkedList {
         seasons.addToHead(d.data);
         seasons.addToTail(a.data);
         seasons.addToTail(b.data);
+
+        LinkedList myList = new LinkedList();
+
+        myList.addToHead("Node 1");
+        myList.addToHead("Node 2");
+        myList.addToHead("Node 3");
+        myList.addToHead("Node 4");
+
+        // Find Node iteratively:
+        Node foundNode = myList.findNodeRecursively("Node 5", myList.head);
+        System.out.println(foundNode.data);
+
 
     }
     public Node head;
@@ -66,5 +80,16 @@ public class LinkedList {
         output+="<tail>";
         return output;
     }
+    public Node findNodeRecursively(String data, Node currentNode) {
 
+        if(currentNode==null){
+            return null;
+        }else if(currentNode.data==data){
+            return currentNode;
+        }else{
+            return  findNodeRecursively(data,currentNode.getNextNode());
+        }
+
+
+    }
 }
