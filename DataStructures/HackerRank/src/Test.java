@@ -1,16 +1,20 @@
+import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 
 public class Test {
 
     public static void main(String[] args) {
-        Set<Short> set=new HashSet<Short>();
-        for (short i = 0; i < 100; i++) {
-            set.add(i);
-            set.remove(i-1);
-
+        List a = new ArrayList();
+        a.add("BBB");
+        String name = (String) a.get(0);
+        a.add(7);
+        if(a.get(0) instanceof String){
+            System.out.println("Str");
+        }else{
+            System.out.println("whatt is");
         }
-        System.out.println(set.size());
-        System.out.println(2.00-1.10);
+        System.out.println(a);
     }
 }

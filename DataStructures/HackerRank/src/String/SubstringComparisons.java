@@ -11,7 +11,7 @@ public class SubstringComparisons {
         String maxLexi = "";
         maxLexi = minLexi = input.substring(0, k);
 
-        for (int i = 0; i < input.length() - k; i++) {
+        for (int i = 0; i <= input.length() - k; i++) {
             String compare = input.substring(i, k + i);
             if (minLexi.compareTo(compare) > 0) {
                 minLexi = compare;
