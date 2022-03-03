@@ -7,7 +7,7 @@ import java.util.List;
 
 public class LeftRotation {
     public static List<Integer> rotLeft(List<Integer> a, int d) {
-        List<Integer> list = new ArrayList<Integer>(a);
+        List<Integer> list = new ArrayList<>(a);
 
 
         if (list.size() == d) {
