@@ -6,6 +6,6 @@ class Operator {
     public static int b = 20;
     public static int c = 30;
 
-    private static double x;
-    public static DoubleUnaryOperator unaryOperator = x -> a * Math.pow(x,2) + b * x + c;
+   
+    public static DoubleUnaryOperator unaryOperator = x -> a * Math.pow(x, 2) + b * x + c;
 }
