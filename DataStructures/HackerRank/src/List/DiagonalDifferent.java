@@ -30,12 +30,12 @@ public class DiagonalDifferent {
     }
     public static void main(String[] args) {
         List<List<Integer>> matrix = new ArrayList<>();
-        List<Integer> row1 = new ArrayList<Integer>(Arrays.asList(1,2,3));
-        List<Integer> row2 = new ArrayList<Integer>(Arrays.asList(4,5,6));
-        List<Integer> row3 = new ArrayList<Integer>(Arrays.asList(9,8,9));
-        matrix.add(row1);
-        matrix.add( row2);
-        matrix.add( row3);
+        List<Integer> row1 = new ArrayList<>(List.of(1,2,3));
+        List<Integer> row2 = new ArrayList<>(List.of(4,5,6));
+        List<Integer> row3 = new ArrayList<>(List.of(9,8,9));
+        matrix.add( row1 );
+        matrix.add( row2 );
+        matrix.add( row3 );
 
         System.out.println(diagonalDifference(matrix));
     }
