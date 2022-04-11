@@ -4,7 +4,7 @@ import java.util.stream.Collectors;
 public class Main {
 
     public static <T> T getElementByIndex(List<T> lst, int index) {
-        // write your code here
+        return index >= 0 ? lst.get(index) : lst.get(lst.size() + index);
     }
 
     /* Do not change code below */
