@@ -43,21 +43,8 @@ files:
     }
   learner_created: false
 feedback_link: https://hyperskill.org/learn/step/2333#comment
-status: Failed
+status: Solved
 feedback:
-  message: |
-    Failed test #1 of 5. Wrong answer
-
-    This is a sample test from the problem statement!
-
-    Test input:
-    1 2 3
-    0 1 2
-
-    Correct output:
-    0 3
-
-    Your code output:
-    0
-  time: Sun, 10 Apr 2022 14:28:48 UTC
+  message: <html>Correct solution</html>
+  time: Tue, 12 Apr 2022 13:50:24 UTC
 record: -1

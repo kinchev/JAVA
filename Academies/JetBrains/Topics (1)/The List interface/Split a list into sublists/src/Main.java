@@ -20,7 +20,7 @@ class ListUtils {
 
         // write your code here
 
-s        return sublists;
+        return sublists;
     }
 }
 

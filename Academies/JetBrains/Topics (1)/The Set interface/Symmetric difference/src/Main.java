@@ -1,5 +1,8 @@
+
+
 import java.util.*;
 import java.util.stream.Collectors;
+
 
 class SetUtils {
 
@@ -7,13 +10,15 @@ class SetUtils {
      * @return symmetric difference between set1 and set2
      */
     public static Set<String> symmetricDifference(Set<String> set1, Set<String> set2) {
-        set2.removeAll(set1);
-        return set2;
+        Set<String> set = new HashSet<>(set1);
+        set.addAll(set2);
+        set1.retainAll(set2);
+        set.removeAll(set1);
+        return set;
+
 
     }
-
 }
-
 /* Do not change the code below */
 public class Main {
     public static void main(String[] args) {
