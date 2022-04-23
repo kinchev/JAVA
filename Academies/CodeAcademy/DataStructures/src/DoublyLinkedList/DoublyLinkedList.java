@@ -59,14 +59,14 @@ public class DoublyLinkedList {
 
     public String printList() {
         Node currentNode = this.head;
-        String output = "<head> ";
+        StringBuilder output = new StringBuilder("<head> ");
         while (currentNode != null) {
-            output += currentNode.data + " ";
+            output.append(currentNode.data).append(" ");
             currentNode = currentNode.getNextNode();
         }
-        output += "<tail>";
+        output.append("<tail>");
         System.out.println(output);
-        return output;
+        return output.toString();
     }
 
     public String removeTail() {

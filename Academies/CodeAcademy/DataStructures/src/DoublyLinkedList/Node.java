@@ -27,6 +27,5 @@ public class Node {
         return this.previous;
     }
 
-    public void removeTail() {
-    }
+
 }
