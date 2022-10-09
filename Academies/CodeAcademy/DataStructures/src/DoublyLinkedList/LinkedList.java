@@ -14,4 +14,7 @@ public class LinkedList {
             this.head = newHead;
         }
     }
+
+    public void printList() {
+    }
 }

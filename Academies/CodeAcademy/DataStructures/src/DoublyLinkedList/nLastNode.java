@@ -1,3 +1,5 @@
+package DoublyLinkedList;
+
 import java.util.ArrayList;
 public class nLastNode {
 

@@ -10,13 +10,13 @@ import javax.imageio.ImageIO;
 public class ImageProcessing {
     public static void main(String[] args) {
         // The provided images are apple.jpg, flower.jpg, and kitten.jpg
-        int[][] imageData = imgToTwoD("./apple.jpg");
+        // int[][] imageData = imgToTwoD("https://www.boredpanda.com/blog/wp-content/uploads/2022/05/funny-cat-dog-tweets-cover_800.png");
         // Or load your own image using a URL!
-        //int[][] imageData = imgToTwoD("https://content.codecademy.com/projects/project_thumbnails/phaser/bug-dodger.png");
+        int[][] imageData = imgToTwoD("https://content.codecademy.com/projects/project_thumbnails/phaser/bug-dodger.png");
         //viewImageData(imageData);
         assert imageData != null;
         int[][] trimmed = trimBorders(imageData, 60);
-        twoDToImage(trimmed, "./trimmed_apple.jpg");
+        twoDToImage(trimmed, "https://content.codecademy.com/projects/project_thumbnails/phaser/bug-dodger.png");
         // int[][] allFilters = stretchHorizontally(shrinkVertically(colorFilter(negativeColor(trimBorders(invertImage(imageData), 50)), 200, 20, 40)));
         // Painting with pixels
     }
