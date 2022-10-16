@@ -1,3 +1,4 @@
+package String;
 public class PalindromeNumber {
     public static  boolean isPalindrome(int x) {
         String xToStr=String.valueOf(x);

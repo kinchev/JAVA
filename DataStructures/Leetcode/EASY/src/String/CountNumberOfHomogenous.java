@@ -1,3 +1,4 @@
+package String;
 public class CountNumberOfHomogenous {
     public static int countHomogenous(String s) {
         char ch = s.charAt(0);

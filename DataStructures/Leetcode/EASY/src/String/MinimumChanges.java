@@ -1,3 +1,4 @@
+package String;
 public class MinimumChanges {
     public static int minOperations(String s) {
         int change = 0;
