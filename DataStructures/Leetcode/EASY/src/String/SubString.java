@@ -1,3 +1,5 @@
+package String;
+
 public class SubString {
     public static boolean check(String s) {
         return s.length() >= 2 && (s.charAt(0) ==
