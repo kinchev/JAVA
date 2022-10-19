@@ -19,6 +19,10 @@ public class  StudentAttendanceRecord1551 {
        
         return true;
     }
+    // return !s.matches(".*LLL.*|.*A.*A.*");
+
+    // public boolean checkRecord(String s) {
+        // return s.indexOf('A') == s.lastIndexOf('A') && !s.contains("LLL");
     public static void main(String[] args) {
        System.out.println(checkRecord("PPALLP"));
     }

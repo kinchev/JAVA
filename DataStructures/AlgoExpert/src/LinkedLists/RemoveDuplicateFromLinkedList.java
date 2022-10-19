@@ -22,16 +22,11 @@ public class RemoveDuplicateFromLinkedList {
     }
 
     public LinkedList removeDuplicateFromLinkedList(LinkedList linkedList) {
-        LinkedList current = linkedList;
-        while (current != null) {
-            LinkedList nextNode = current.next;
-            while (nextNode != null && nextNode.value == current.value) {
-                nextNode = nextNode.next;
-            }
-            current.next = nextNode;
-            current = nextNode;
-
+        LinkedList currentNode=linkedList;
+        while(currentNode !=null){
+            LinkedList nextDistinctNode=currentNode.next;
         }
+        
         return linkedList;
     }
 
