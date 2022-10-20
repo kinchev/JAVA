@@ -18,11 +18,7 @@ public  class MiddleofTheLinkedList876 {
             ListNode(int val, ListNode next) { this.val = val; this.next = next; }
      }
     public static void main(String[] args) {
-        ListNode a=new ListNode(1);
-        ListNode b=new ListNode(2);
-        ListNode c=new ListNode(3);
-        ListNode d=new ListNode(4);
-        System.out.println(ListNode());
+
 
     }
 }
