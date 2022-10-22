@@ -5,20 +5,7 @@ import java.util.Map;
 import java.util.TreeMap;
 
 public class FirstUniqueCharacterInAString387 {
-    // public int firstUniqChar(String s) {
-    //     Map<Character,Integer> result=new HashMap<>();
-    //     for(int i=0;i<s.length();i++){
-    //         if(result.containsKey(s.charAt(i))){
-    //             result.merge(i, 1, (a,b)->a+b);
-    //         }else{
-    //             result.putIfAbsent(s.charAt(i), 1);
 
-    //     }
-    // }
-        
-
-        
-    // }
 
      
         public static int firstUniqChar(String s) {
