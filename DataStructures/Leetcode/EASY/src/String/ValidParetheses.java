@@ -11,21 +11,13 @@ class ValidParentheses{
         //     for(char c:s.toCharArray()){
         //         if(c=='(' || c=='{' || c=='['){
         //             stack.push(c);
-        //         }else   if((c==')' ||c==']' || c=='}')&& !stack.isEmpty()){
-                    
-        //         if(c+stack.peek()==184||c+stack.peek()==81 ||c+stack.peek()==248){
-                
-        //             stack.pop();
+        //         }else   if(stack.isEmpty() || stack.pop() != c){
+        //             return false;
+            
         //         }
         
         //     }
-        
-        //     }
-        //     if(stack.isEmpty()){
-        //         return true;
-        //     }
-        
-        //         return false;
+        // return stack.isEmpty();
             
         // }
 
@@ -44,6 +36,6 @@ class ValidParentheses{
             return stack.isEmpty();
         }
    public static void main(String[] args) {
-        System.out.println(isValid("([}}])"));
+        System.out.println(isValid("({})"));
    }
 }
