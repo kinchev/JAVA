@@ -1,0 +1,161 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch RotateArray189",
+            "request": "launch",
+            "mainClass": "Array.RotateArray189",
+            "projectName": "Leetcode_6248428a"
+        },
+        {
+            "type": "java",
+            "name": "Launch RotateArray",
+            "request": "launch",
+            "mainClass": "Array.RotateArray",
+            "projectName": "Leetcode_6248428a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch SquaresOfASortedArray977",
+            "request": "launch",
+            "mainClass": "Array.SquaresOfASortedArray977",
+            "projectName": "Leetcode_6248428a"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinarySearch704",
+            "request": "launch",
+            "mainClass": "BinarySearch.BinarySearch704",
+            "projectName": "Leetcode_6248428a"
+        },
+        {
+            "type": "java",
+            "name": "Launch SearchInsertPosition35",
+            "request": "launch",
+            "mainClass": "BinarySearch.SearchInsertPosition35",
+            "projectName": "Leetcode_6248428a"
+        },
+        {
+            "type": "java",
+            "name": "Launch MiddleofTheLinkedList876",
+            "request": "launch",
+            "mainClass": "LinkedList.MiddleofTheLinkedList876",
+            "projectName": "Leetcode_6248428a"
+        },
+        {
+            "type": "java",
+            "name": "Launch DesingHasMap",
+            "request": "launch",
+            "mainClass": "Map.DesingHasMap",
+            "projectName": "Leetcode_6248428a"
+        },
+        {
+            "type": "java",
+            "name": "Launch CountNumberOfHomogenous",
+            "request": "launch",
+            "mainClass": "String.CountNumberOfHomogenous",
+            "projectName": "Leetcode_6248428a"
+        },
+        {
+            "type": "java",
+            "name": "Launch FirstUniqueCharacterInAString387",
+            "request": "launch",
+            "mainClass": "String.FirstUniqueCharacterInAString387",
+            "projectName": "Leetcode_6248428a"
+        },
+        {
+            "type": "java",
+            "name": "Launch LongestNiceSubstring1763",
+            "request": "launch",
+            "mainClass": "String.LongestNiceSubstring1763",
+            "projectName": "Leetcode_6248428a"
+        },
+        {
+            "type": "java",
+            "name": "Launch MakeAlternatingBinaryString1758",
+            "request": "launch",
+            "mainClass": "String.MakeAlternatingBinaryString1758",
+            "projectName": "Leetcode_6248428a"
+        },
+        {
+            "type": "java",
+            "name": "Launch MinimumChanges",
+            "request": "launch",
+            "mainClass": "String.MinimumChanges",
+            "projectName": "Leetcode_6248428a"
+        },
+        {
+            "type": "java",
+            "name": "Launch MinimumChangesToMake1758",
+            "request": "launch",
+            "mainClass": "String.MinimumChangesToMake1758",
+            "projectName": "Leetcode_6248428a"
+        },
+        {
+            "type": "java",
+            "name": "Launch MyQueue",
+            "request": "launch",
+            "mainClass": "String.MyQueue",
+            "projectName": "Leetcode_6248428a"
+        },
+        {
+            "type": "java",
+            "name": "Launch PalindromeNumber",
+            "request": "launch",
+            "mainClass": "String.PalindromeNumber",
+            "projectName": "Leetcode_6248428a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReverseString",
+            "request": "launch",
+            "mainClass": "String.ReverseString",
+            "projectName": "Leetcode_6248428a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReverseString2",
+            "request": "launch",
+            "mainClass": "String.ReverseString2",
+            "projectName": "Leetcode_6248428a"
+        },
+        {
+            "type": "java",
+            "name": "Launch RomanToInteger",
+            "request": "launch",
+            "mainClass": "String.RomanToInteger",
+            "projectName": "Leetcode_6248428a"
+        },
+        {
+            "type": "java",
+            "name": "Launch StudentAttendanceRecord1551",
+            "request": "launch",
+            "mainClass": "String.StudentAttendanceRecord1551",
+            "projectName": "Leetcode_6248428a"
+        },
+        {
+            "type": "java",
+            "name": "Launch SubString",
+            "request": "launch",
+            "mainClass": "String.SubString",
+            "projectName": "Leetcode_6248428a"
+        },
+        {
+            "type": "java",
+            "name": "Launch SwapAdjacentInLRSttirng",
+            "request": "launch",
+            "mainClass": "SwapAdjacentInLRSttirng",
+            "projectName": "Leetcode_6248428a"
+        }
+    ]
+}
