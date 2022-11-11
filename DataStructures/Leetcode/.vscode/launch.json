@@ -6,6 +6,111 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch MergeSortedArray88",
+            "request": "launch",
+            "mainClass": "Array.MergeSortedArray88",
+            "projectName": "Leetcode_6c6e7190"
+        },
+        {
+            "type": "java",
+            "name": "Launch LengthLastWord58",
+            "request": "launch",
+            "mainClass": "String.LengthLastWord58",
+            "projectName": "Leetcode_6c6e7190"
+        },
+        {
+            "type": "java",
+            "name": "Launch LargestNumberAtLeastTwiceofOthers747",
+            "request": "launch",
+            "mainClass": "Array.LargestNumberAtLeastTwiceofOthers747",
+            "projectName": "Leetcode_6c6e7190"
+        },
+        {
+            "type": "java",
+            "name": "Launch MinCostClibing746",
+            "request": "launch",
+            "mainClass": "Array.MinCostClibing746",
+            "projectName": "Leetcode_6c6e7190"
+        },
+        {
+            "type": "java",
+            "name": "Launch MinCostClibing476",
+            "request": "launch",
+            "mainClass": "Array.MinCostClibing476",
+            "projectName": "Leetcode_6c6e7190"
+        },
+        {
+            "type": "java",
+            "name": "Launch ClibingStairs",
+            "request": "launch",
+            "mainClass": "Math.ClibingStairs",
+            "projectName": "Leetcode_6c6e7190"
+        },
+        {
+            "type": "java",
+            "name": "Launch SlidingWindows",
+            "request": "launch",
+            "mainClass": "Array.SlidingWindows",
+            "projectName": "Leetcode_6c6e7190"
+        },
+        {
+            "type": "java",
+            "name": "Launch SlidingWindows",
+            "request": "launch",
+            "mainClass": "MEDIUM.Array.SlidingWindows",
+            "projectName": "Leetcode_6c6e7190"
+        },
+        {
+            "type": "java",
+            "name": "Launch LongestCommonPrefic",
+            "request": "launch",
+            "mainClass": "String.LongestCommonPrefic",
+            "projectName": "Leetcode_6c6e7190"
+        },
+        {
+            "type": "java",
+            "name": "Launch Sqrt",
+            "request": "launch",
+            "mainClass": "Math.Sqrt",
+            "projectName": "Leetcode_6c6e7190"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinaryString",
+            "request": "launch",
+            "mainClass": "Math.BinaryString",
+            "projectName": "Leetcode_6c6e7190"
+        },
+        {
+            "type": "java",
+            "name": "Launch PlusOne",
+            "request": "launch",
+            "mainClass": "Math.PlusOne",
+            "projectName": "Leetcode_6c6e7190"
+        },
+        {
+            "type": "java",
+            "name": "Launch PalindromeNumber9",
+            "request": "launch",
+            "mainClass": "String.PalindromeNumber9",
+            "projectName": "Leetcode_6c6e7190"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindtheIndexoftheFirstOccurrenceinaString28",
+            "request": "launch",
+            "mainClass": "String.FindtheIndexoftheFirstOccurrenceinaString28",
+            "projectName": "Leetcode_6c6e7190"
+        },
+        {
+            "type": "java",
+            "name": "Launch Monotonic896",
+            "request": "launch",
+            "mainClass": "Array.Monotonic896",
+            "projectName": "Leetcode_6c6e7190"
+        },
+        {
+            "type": "java",
             "name": "Launch RotateArray189",
             "request": "launch",
             "mainClass": "Array.RotateArray189",
