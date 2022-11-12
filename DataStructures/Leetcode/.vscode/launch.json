@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Seta",
+            "request": "launch",
+            "mainClass": "DataStructures.Seta",
+            "projectName": "Leetcode_6248428a"
+        },
+        {
+            "type": "java",
+            "name": "Launch FibonacciNumber",
+            "request": "launch",
+            "mainClass": "Math.FibonacciNumber",
+            "projectName": "Leetcode_6248428a"
+        },
+        {
+            "type": "java",
+            "name": "Launch IsSubsqquence",
+            "request": "launch",
+            "mainClass": "String.IsSubsqquence",
+            "projectName": "Leetcode_6248428a"
+        },
+        {
+            "type": "java",
+            "name": "Launch IsomorphicString",
+            "request": "launch",
+            "mainClass": "String.IsomorphicString",
+            "projectName": "Leetcode_6248428a"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindPivotIndex",
+            "request": "launch",
+            "mainClass": "Array.FindPivotIndex",
+            "projectName": "Leetcode_6248428a"
+        },
+        {
+            "type": "java",
+            "name": "Launch RunningSumOf1D1480",
+            "request": "launch",
+            "mainClass": "Array.RunningSumOf1D1480",
+            "projectName": "Leetcode_6248428a"
+        },
+        {
+            "type": "java",
             "name": "Launch RotateArray189",
             "request": "launch",
             "mainClass": "Array.RotateArray189",
