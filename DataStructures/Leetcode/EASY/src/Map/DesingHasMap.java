@@ -32,7 +32,6 @@ public class DesingHasMap {
         a.put(2,10);
         a.put(3,20);
         a.put(4,50);
-        int x=a.get(1);
         a.remove(1);
          System.out.println(a);
     }
