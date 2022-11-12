@@ -33,6 +33,7 @@ public class CustomArrayList<T> implements Iterable<T> {
             }
             return  false;
 
+//
     }
 
         @Override
