@@ -61,7 +61,7 @@ public class LinkedList<T> implements List<T> {
     
     @Override
     public void addFirst(T value) {
-        // TODO Auto-generated method stub
+
         
     }
     @Override

@@ -1,15 +1,19 @@
 package LinkedList;
 
 public  class MiddleofTheLinkedList876 {
-    public static ListNode middleNode(ListNode head) {
-        ListNode slow=head;
-        ListNode fast=head;
-        while(fast!=null && fast.next!=null){
-            slow=slow.next;
-            fast=fast.next.next;
+        public ListNode middleNode(ListNode head) {
+            ListNode slow=head;
+            ListNode fast=head;
+            while(fast!=null && fast.next!=head){
+                slow=slow.next;
+                fast=slow.next.next;
+
+            }
+            return slow;
+
         }
-        return slow;
-    }
+        
+    
      public static class ListNode {
             int val;
             ListNode next;
