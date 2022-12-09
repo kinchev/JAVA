@@ -22,6 +22,8 @@ public class LinkedList<T> implements List<T> {
     
         Node(T value) {
             this.value = value;
+            prev=null;
+            next=null;
         }
     }
 
@@ -61,13 +63,32 @@ public class LinkedList<T> implements List<T> {
     
     @Override
     public void addFirst(T value) {
+        Node toAdd=new Node(value);
+        if(size()==0){
+            addElementIfIsEmpty(toAdd);
+            return;
+        }
+        connectLeftAdnRightNode(toAdd,head);
+        head=toAdd;
+        size++;
 
-        
+
     }
+
+    private void connectLeftAdnRightNode(Node left,Node right) {
+        left.next=right;
+        right.prev=left;
+
+    }
+
+    private void addElementIfIsEmpty(Node toAdd) {
+        head=tail=toAdd;
+        size++;
+    }
+
     @Override
     public void addLast(T value) {
-        // TODO Auto-generated method stub
-        
+
     }
     @Override
     public void add(int index, T value) {

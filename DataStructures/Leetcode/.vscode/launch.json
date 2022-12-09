@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch IntersectionOfTwoLists",
+            "request": "launch",
+            "mainClass": "LinkedList.IntersectionOfTwoLists",
+            "projectName": "Leetcode_6248428a"
+        },
+        {
+            "type": "java",
             "name": "Launch Seta",
             "request": "launch",
             "mainClass": "DataStructures.Seta",
